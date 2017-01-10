@@ -5,10 +5,10 @@ version 0.15.1.
 
 ## Build & development
 
-1. Run 'npm install'
-2. Run 'bower install'
-3. To build, run 'grunt'
-4. To start app, run 'grunt serve'
+1. Run `npm install`
+2. Run `bower install`
+3. To build, run `grunt`
+4. To start app, run `grunt serrve`
 5. Location: localhost:12000
 
 ## Testing

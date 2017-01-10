@@ -9,7 +9,7 @@ version 0.15.1.
 2. Run `bower install`
 3. To build, run `grunt`
 4. To start app, run `grunt serve`
-5. Location: localhost:12000
+5. Location: localhost:9000
 
 ## Testing
 

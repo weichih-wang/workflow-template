@@ -2,16 +2,14 @@
 
 /**
  * @ngdoc function
- * @name demoAppApp.controller:MainCtrl
+ * @name loginApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the demoAppApp
+ * Controller of the loginApp
  */
-angular.module('demoAppApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+angular.module('loginApp')
+  .controller('MainCtrl', function ($scope, Auth) {
+    $scope.logout = function() {
+      Auth.logout();
+    };
   });
